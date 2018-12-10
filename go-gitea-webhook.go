@@ -17,8 +17,8 @@ import (
 	"os/signal"
 	"strconv"
 	"syscall"
-
-	api "code.gitea.io/sdk/gitea"
+	
+	"github.com/go-gitea/go-sdk/gitea"
 )
 
 //ConfigRepository represents a repository from the config file
